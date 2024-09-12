@@ -19,40 +19,30 @@ Como se recalco anteriormente, son variables que solo pueden tener dos valores 0
 Las operaciones mencionadas anteriormente; and or y not son los bloque esenciales para diseñar circuitos digitales. Si se llegan a combinar varias operaciones logicas se pueden construir circuitos complejos.
 
 ## 4. Compuertas logicas:
-Las compuertas logicas son implementaciones fisicas de 
+Las compuertas logicas son implementaciones fisicas de las operaciones logicas, cada una de las compuertas tiene uno o mas valores de entrada y genera una salida basada en una operacion logica en particular, a continuacion podra apreciar algunas de las compuertas mas importantes:
+### 4.1 Nand:
+Las compuertas Nand es una composicion de las operaciones Not y And, su salida es 0 solo si ambas entradas son 1, en cualquier otro caso, la salida sera 1. Es una de las compuertas principales ya que, con solo compuertas Nand, se pueden implementar cualquier otra operacion logica.
+### 4.2 Nor:
+La compuerta Nor es una combinacion de Not y Or. Su salida sera 1 unicamente si ambas son 0, parecido a Nand, cualquier circuito logico puede añadirse utilizando compuertas Nor
+### 4.3 Or Exclusiva Xor
+La compuerta Xor o Or exclusiva genera una salida de 1 si solo una de las entradas es 1, pero no ambas. Es muy util en circuitos donde se necesita detectar diferencias entre las entradas.
+### 4.4 Nor Exclusiva Xnor
+La compuerta Xnor o Nor exclusiva es todo lo contrario de la compuerta Xor. Produce una salida de 1 si ambas entradas son iguales, ya sea 0,0 o 1,1. Es bastante utilizada en operaciones de comparacion de igualdad.
 
+## 5 Circuito integrado:
+Un circuito integrado "CI" es un grupo de compuertas logicas interconectadas en un solo chip que puede hacer multiples operaciones logicas y funciones. Los circuitos integrados son la base de los componentes electronicos mas complejos como procesadores, memorias y controladores. 
+> Dentro de estos CI, se encuentran las compuertas logicas que hemos mencionado, las cuales estan integradas para formar estructuras mas avanzadas.
 
-### 3.1. Título de subsecciones
-Para la creación de estas subsecciones debe utilizar un tamaño de letra más pequeño, por lo tanto utilice la etiqueta '###' 
-### 3.2. Numeración de subsecciones
-Siga la numeración de la sección seguida de un punto y luego el número de la subsección.
-
-## 4. Ejemplos
-Si en algún caso pretende dar un ejemplo explicativo ya sea a través de texto o através de ecuaciones matemáticos, utilizar la palabra 'Ejemplo' seguido de una numeración consecutiva dentro de la clase. Utilice el emoji 💡 antecediendo la palabra.
-
-## 5. Ecuaciones
-Para la edición de ecuaciones debe utilizar la etiqueta '$$' al comienzo y final de la ecuación para que la ecuación quede centrada ocupando una línea. Si se quiere que la ecuación quede integrada en el texto debe utilizar la etiqueta '$' al comienzo y final de la ecuación. Las ecuaciones pueden ser editadas utilizando el código LATEX, en el siguiente enlace encuentran un editor de ecuaciones que les genera el código. http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp . Sin embargo hay muchas otras herramientas que pueden utilizar para esto.
 
 💡**Ejemplo 1:** si se va a representar la ecuación de la ley de Ohm se puede mostrar así $R=\frac{V}{I}$ o también,
 
 $$R=\frac{V}{I}$$
 
-## 6. Figuras
-Todas las figuras que incluya deben ser generadas por ustedes, **no utilizar las figuras de las presentaciones**. Para incluir figuras puede seguir los siguientes pasos:
-* Primero escribimos ![]().
-* Después escribimos, dentro de los corchetes, el texto alternativo. Este es opcional y solo entra en acción cuando no se puede cargar la imagen correctamente.
-* Después escribimos, dentro de los paréntesis, la ubicación del archivo (ya sea una url o una ubicación dentro de algun folder local). Se recomienda poner las imágenes en una carpeta que se llame imágenes dentro del repositorio github para que no tengan problemas al cargar las imágenes.
 
-💡**Ejemplo 2:**
 
 ![Figura de prueba](images/plantilla/Captura2.PNG)
 
-Figura 1. Figura de prueba
 
-Incluya la respectiva etiqueta a modo de descripción de la figura y mantenga numeración consecutiva para todas las figuras de la clase.
-
-## 7. Tablas
-En caso de necesitar la inclusión de tablas para organizar información se recomienda el uso de la herramienta del siguiente enlace https://www.tablesgenerator.com/markdown_tables , la cual permite organizar la información dentro de la tabla y genera el código markdown automáticamente:
 
 💡**Ejemplo 3:** 
 
@@ -65,25 +55,8 @@ En caso de necesitar la inclusión de tablas para organizar información se reco
 |    FFFFFFS    |                       7                       |
 |      ...      |                      ...                      |
 
-Tabla 1. Tabla de ejemplo
 
-Cada tabla debe llevar la etiqueta que describa su contenido y numeración consecutiva para todas las tablas
-
-## 8. Código
-Teniendo en cuenta que el curso requiere del desarrollo de código matlab, c, c++ u otro. Si requiere incluir pequeños segmentos de código en los apuntes hágalos de la siguiente manera:
-
-💡**Ejemplo 4:**
 ```
 var sumar2 = function(numero) {
   return numero + 2;
 }
-```
-
-## 9. Ejercicios
-Deben agregar 2 ejercicios con su respectiva solución, referentes a los temas tratados en cada una de las clases. Para agregar estos, utilice la etiqueta #, es decir como un nuevo título dentro de la clase con la palabra 'Ejercicios'. Cada uno de los ejercicios debe estar numerado y con su respectiva solución inmediatamente despues del enunciado. Antes del subtitulo de cada ejercicio incluya el emoji 📚
-
-## 10. Conclusiones
-Agregue unas breves conclusiones sobre los temas trabajados en cada clase, puede ser a modo de resumen de lo trabajado o a indicando lo aprendido en cada clase
-
-## 11. Referencias
-Agregue un subtítulo al final donde pueda poner todas las referencias consultadas incluyendo el origen o fuente de los ejercicios planteados. Tambien dentro del texto referencie los textos o artículos consultados y las figuras y tablas dentro de la explicación de las mismas.
