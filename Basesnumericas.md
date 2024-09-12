@@ -5,6 +5,7 @@ El objetivo de esta clase se basa en identificar los dos tipos de señales que h
 La señal digital es un tipo de señal utilizada en electronica digital, con la finalidad de representar informacion en forma binaria, sea en dos estados puntuales. Este tipo de señal maneja dos categorias en cuanto a niveles de voltaje o corriente, estos son; nivel alto y nivel bajo, representados por binarios 0 y 1, estos niveles acatan al tipo de tecnologia que se use, por ejemplo en logica TTL, 1 podria estar entre 2v y 5v y 0 entre 0v y 0.8v.
 
 ### 1.1 Representacion grafica:
+![Señal Digital](Señaldigital11.PNG)
 
 ### 1.2 Magnitudes digitales:
 Las señales digitales representan magnitudes moderadas, en otras palabras, valores que solo pueden estar en ciertos niveles, enfatizando lo anterior dicho, estos valores habitualmente se limitan en bajo y alto, 0 o 1, a continuacion estudiaremos las magnitudes comunes de la señal digital.
