@@ -8,12 +8,37 @@ Las operaciones logicas se realizan entre variables binarias y generan un result
 ### 2.1 And:
 >El resultado es 1 solo si ambas variables de entrada son 1.
 
+|**A**|**B**|**F**|
+|-----|-----|-----|
+|  0  |  0  |  0  |
+|  0  |  1  |  1  |
+|  1  |  0  |  1  |
+|  1  |  1  |  1  |
+
+### 2.1.2 Apuntes de la clase
+![Operacion logica AND](And11.PNG)
 ### 2.2 or:
 >El resultado es 1 si al menos una de las variables de entrada es 1.
 
+|**A**|**B**|**F**|
+|-----|-----|-----|
+|  0  |  0  |  0  |
+|  0  |  1  |  0  |
+|  1  |  0  |  0  |
+|  1  |  1  |  1  |
+
+### 2.2.2 Apuntes de la clase
+![Operacion logica Or](or11.PNG)
 ### 2.3 Not:
 >Invierte el valor de la variable de entrada, si la entrada es 0, el resultado es 1 y viceversa.
 
+|**A**|**F**|
+|-----|-----|
+|  0  |  1  |
+|  1  |  1  |
+
+### 2.3.2 Apuntes de la clase
+![Operacion logica Not](not11.PNG)
 
 ## 3. Logica Binaria:
 ### 3.1 Variables binarias:
@@ -35,31 +60,3 @@ La compuerta Xnor o Nor exclusiva es todo lo contrario de la compuerta Xor. Prod
 ## 5 Circuito integrado:
 Un circuito integrado "CI" es un grupo de compuertas logicas interconectadas en un solo chip que puede hacer multiples operaciones logicas y funciones. Los circuitos integrados son la base de los componentes electronicos mas complejos como procesadores, memorias y controladores. 
 > Dentro de estos CI, se encuentran las compuertas logicas que hemos mencionado, las cuales estan integradas para formar estructuras mas avanzadas.
-
-
-💡**Ejemplo 1:** si se va a representar la ecuación de la ley de Ohm se puede mostrar así $R=\frac{V}{I}$ o también,
-
-$$R=\frac{V}{I}$$
-
-
-
-![Figura de prueba](images/plantilla/Captura2.PNG)
-
-
-
-💡**Ejemplo 3:** 
-
-| **Resultado** | **x = número de intentos hasta primer éxito** |
-|---------------|-----------------------------------------------|
-|       S       |                       1                       |
-|       FS      |                       2                       |
-|      FFS      |                       3                       |
-|      ...      |                      ...                      |
-|    FFFFFFS    |                       7                       |
-|      ...      |                      ...                      |
-
-
-```
-var sumar2 = function(numero) {
-  return numero + 2;
-}
