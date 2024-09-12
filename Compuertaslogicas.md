@@ -7,10 +7,13 @@ Las variables binarias son aquellas que solo pueden tomar dos valores: 0 y 1. Es
 Las operaciones logicas se realizan entre variables binarias y generan un resultado basado en reglas especificas, las tres operaciones basicas son:
 ### 2.1 And:
 >El resultado es 1 solo si ambas variables de entrada son 1.
+
 ### 2.2 or:
 >El resultado es 1 si al menos una de las variables de entrada es 1.
+
 ### 2.3 Not:
 >Invierte el valor de la variable de entrada, si la entrada es 0, el resultado es 1 y viceversa.
+
 
 ## 3. Logica Binaria:
 ### 3.1 Variables binarias:
