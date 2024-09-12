@@ -29,6 +29,7 @@ Las formas de onda representan como permuta una señal, en este caso la forma de
 La señal analoga es un tipo de señal utilizada en electronica digital, para representar aquellas señales que pueden acaparar un rango continuo de valores. En comparacion con la señal digital, que solo puede estar en dos estados 1 o 0, la señal analoga puede cambiar en funcion de tiempo y tener cualquier valor dentro de un rango determinado.
 
 ### 2.1 Representacion grafica:
+![Señal Analoga](Señalanaloga11.PNG)
 
 ### 2.2 Magnitudes analogas:
 La señal analoga expone una magnitud fisica que varia continuamente en el transcurso del tiempo, estas magnitudes pueden tomar cualquier valor, como se recalco anteriormente, a continuacion estudiaremos las magnitudes comunes de la señal analoga.
