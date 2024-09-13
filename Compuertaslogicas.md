@@ -1,4 +1,4 @@
-# Compuertas logicas y algebra boole
+# Compuertas logicas
 El título de cada clase, correspondiente al tema general que se trabaje en clase. Siempre después de cada título de clase, redactar una breve introducción (mínimo un párrafo) que de una mirada general al tema
 ## 1. Variables binarias:
 Las variables binarias son aquellas que solo pueden tomar dos valores: 0 y 1. Estos valores unicamente representan dos estados, como "encendido" y "apagado" o "falso" y "verdadero", en los sistemas digitales, toda informacion y los procedimientos se basan en esas dos combinaciones.
